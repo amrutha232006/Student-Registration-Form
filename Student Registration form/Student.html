@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2><i>Student Registration Form</i></h2>
+    </header>
+    <hr>
+    <main>
+        <form action="/action.php">
+           <input type="text" placeholder="Enter your name"required>
+        <br>
+        <br>
+        <input type="email" placeholder="Enter your email"required>
+        <br>
+        <br>
+        <input type="password" placeholder="Enter your password"required>
+        <br>
+        <br>
+        <hr>
+        <p>Please select your Gender:</p>
+        <label for="women">
+            <input type="radio" name="gender" value="Women">Women
+        </label>
+        <label for="male">
+            <input type="radio" name="gender" value="male">Male
+        </label>
+        <label for="other">
+            <input type="radio" name="gender" value="other">Other
+        </label>
+        <label for="Rather not say">
+            <input type="radio" name="gender" value="Rather not say">Rather not say
+        </label>
+        <br>
+        <hr>
+        <p>Select your Skill:</p>
+        <label for="HTML">
+            <input type="checkbox" value="HTML">HTML
+        </label>
+        <label for="CSS">
+            <input type="checkbox" value="CSS">CSS
+        </label>
+        <label for="REACT JS">
+            <input type="checkbox" value="REACT JS">REACT JS
+        </label>
+        <label for="PYTHON">
+            <input type="checkbox" value="PYTHON">PYTHON
+        </label>
+        <label for="JAVASCRIPT">
+            <input type="checkbox" value="JAVASCRIPT">JAVASCRIPT
+        </label>
+        <label for="GIT and GITHUB">
+            <input type="checkbox" value="GIT and GITHUB">GIT and GITHUB
+        </label>
+        <BR>
+            <hr>
+        <p>Select your college</p>
+        <select name="college" >
+            <option value="BGSCET">BGSCET</option>
+            <option value="DAYANAND">DAYANAND</option>
+            <option value="SAPTAGIRI">SAPTAGIRI</option>
+            <option value="EAST WEST">EAST WEST</option>
+            <option value="SJBIT">SJBIT</option>
+            <option value="ACHARYA">ACHARYA</option>
+            <option value="JSS">JSS</option>
+        </select>
+        <br>
+        <br>
+        <input type="submit" value="Submit"> 
+        </form>
+        
+
+    </main>
+    <footer>
+        <h3><i>Thank you for registering</i></h3>
+    </footer>
+    
+</body>
+</html>
